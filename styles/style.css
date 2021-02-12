@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.apk {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.apk .content {
+  padding-top: 100px;
+  width: 50%;
+  margin: auto;
+}
+
+.apk .content h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.apk .content .unos {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.apk .content .unos input {
+  padding-left: 10px !important;
+  padding: 8px 0px;
+  width: 70%;
+  background-color: #f8f7fc;
+  outline: none;
+  border: 1px #444ab8 solid;
+  border-radius: 5px;
+}
+
+.apk .content .unos button {
+  position: absolute;
+  right: 0;
+  margin-left: 30px;
+  max-width: 30%;
+  padding: 9px 40px;
+  background-color: #444ab8;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.apk .content .unos button:hover {
+  cursor: pointer;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+}
+
+.apk .content .uneseno {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.apk .content .info {
+  margin-top: 20px;
+  position: relative;
+}
+
+.apk .content .info #broj {
+  font-weight: 700;
+  color: #ea7579;
+}
+
+.apk .content .info #ukloni {
+  position: absolute;
+  right: 0;
+}
+
+.apk .content .info #ukloni:hover {
+  color: #ea7579;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.apk .content .p-style {
+  background-color: #f8f7fc;
+  color: #ea7579;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0px;
+  margin: 5px 0px;
+}
+
+footer {
+  text-align: center;
+  margin-top: -25px;
+  color: #444ab8;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
