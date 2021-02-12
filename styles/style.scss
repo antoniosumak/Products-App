@@ -52,6 +52,12 @@
         filter: brightness(110%);
       }
     }
+    .error {
+      color: red;
+      margin-top: 5px;
+      display: none;
+      font-size: 0.8rem;
+    }
     .uneseno {
       position: relative;
       width: 100%;

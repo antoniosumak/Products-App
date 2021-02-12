@@ -62,6 +62,13 @@
           filter: brightness(110%);
 }
 
+.apk .content .error {
+  color: red;
+  margin-top: 5px;
+  display: none;
+  font-size: 0.8rem;
+}
+
 .apk .content .uneseno {
   position: relative;
   width: 100%;
